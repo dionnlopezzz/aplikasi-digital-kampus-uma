@@ -1,6 +1,5 @@
 function hitungTagihan(ukt, persenBeasiswa = 0) {
-  // VERSI AWAL (ada bug): potongan beasiswa belum diterapkan
-  return ukt;
+  return ukt - (ukt * persenBeasiswa) / 100;
 }
 
 // Bagian tampilan (hanya jalan di browser)
