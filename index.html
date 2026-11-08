@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Digital Kampus UMA - Tagihan UKT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="kartu">
+    <h1>Tagihan UKT</h1>
+    <p class="sub">Aplikasi Digital Kampus Universitas Medan Area (simulasi)</p>
+
+    <label for="ukt">Nominal UKT (Rp)</label>
+    <input type="number" id="ukt" value="5000000" min="0">
+
+    <label for="beasiswa">Beasiswa (%)</label>
+    <input type="number" id="beasiswa" value="0" min="0" max="100">
+
+    <button id="hitung">Hitung Tagihan</button>
+    <p id="hasil" class="hasil"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
